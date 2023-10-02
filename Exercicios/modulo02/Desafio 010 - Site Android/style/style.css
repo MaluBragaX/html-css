@@ -70,6 +70,7 @@ nav > a {
     padding: 10px;
     border-radius: 10px;
     background-color: #61727C;
+    color: #ffff;
 }
 nav a:hover {
     background-color: var(--cor2);
