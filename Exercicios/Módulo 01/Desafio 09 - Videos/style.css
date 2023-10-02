@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 35px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    font-family: Helvetica;
+}
+
+
+

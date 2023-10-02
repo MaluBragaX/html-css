@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cats';
+    src: url('fonts/Cattys.otf' format('opentype'));
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #d1adbb;
+    color: #261A1A;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+/* Cabeçalho colocado em linha para facilitar modelar */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title, #title-contas {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+
+h2 {
+    font-size: 50px;
+}
+
+/* Parágrafo h2 */
+.italico {
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    font-weight: 10px;
+    font-style: italic;
+}
+
+/* Centralizado todo o conteúdo principal */
+main#principal {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+/* Cabeçalho de Listas Página Início */
+li {
+    display: inline-block;
+    margin: 15px;
+    color: #261A1A;
+    border: solid #261A1A;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Cor ao passar mouse cabeçalho */
+li:hover {
+    background-color: #642E44;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+/* Nome e E-mail página de início */
+input {
+    border-radius: 10px;
+    padding: 10px;
+    border: solid #261A1A;
+    font-weight: bold;
+}
+
+/* Nome e E-mail muda cor ao passar mouse */
+.colorido:hover {
+    background-color: #642E44;
+}
+
+/* Imagem gato início */
+img {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* CRIAR CONTA */
+#criar-conta {
+    color: #261A1A;
+    text-decoration: none;
+    font-weight: bold;
+}
+#criar-conta:hover {
+    text-decoration: underline;
+}
+form p {
+    margin-top: 25px;
+}
+
+
+
+/* Daqui pra baixo é para página de cadastro */
+
+#body-criar-conta {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2.segunda-pagina {
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+p.segunda-pagina {
+    margin-bottom: 50px;
+}
+
+p#criou-conta {
+    margin-top: 75px;
+    color: #261A1A;
+}
+main > a {
+    text-decoration: none;
+}
+
+

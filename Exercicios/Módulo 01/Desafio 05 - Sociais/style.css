@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, #0D2E3D, #0D4458, #473D46);
+    box-shadow: -25px rgb(196, 190, 190);
+    border-radius: 7px;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    color: white;
+}
+
+
+
