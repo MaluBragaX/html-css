@@ -42,3 +42,6 @@ header a:visited {
 section {
     font-family: var(--fonte-cordel);
 }
+.input-conta {
+    align-content: space-between;
+}
