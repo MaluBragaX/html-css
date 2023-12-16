@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Desafio Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+             border: 1px solid black;
+             padding: 10px;
+        }
+
+    </style>
 </head>
 <body>
+    <h1>Desafio da Tabela do Capítulo 21 Aula 12</h1>
+    <table>
+        <tr>
+            <th>Área</th>
+            <th>Disciplinas</th>
+            <th>Notas</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Média</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                <td>Física</td>
+                <td>Química</td>
+                <td>Biologia</td>
+            </tr>
+            <tr>
+                <td>Média de Exatas</td>
+            </tr>
+        </tbody>
+    </table>
     
 </body>
 </html>
